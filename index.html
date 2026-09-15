@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kinder, el espejo a tu propio mundo — Mimo & Co x Kinder Sorpresa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===================== HEADER ===================== -->
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand-lockup" aria-label="Colaboración Mimo & Co y Kinder">
+      <span class="logo logo-mimo">Mimo<span class="logo-amp">&amp;</span>Co</span>
+      <span class="lockup-x">×</span>
+      <span class="logo logo-kinder">kinder</span>
+    </div>
+
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="#coleccion">La colección</a>
+      <a href="#armamundo">Armá tu mundo</a>
+      <a href="#carrito-info">Cómo comprar</a>
+    </nav>
+
+    <button class="cart-button" id="cartToggle" aria-label="Abrir carrito">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M3 4h2l1.6 9.6a2 2 0 0 0 2 1.7h8a2 2 0 0 0 2-1.6L20 8H6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="9" cy="19.5" r="1.4" fill="currentColor"/>
+        <circle cx="17" cy="19.5" r="1.4" fill="currentColor"/>
+      </svg>
+      <span class="cart-count" id="cartCount">0</span>
+    </button>
+  </div>
+</header>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="inicio">
+  <div class="hero-text">
+    <p class="hero-kicker">Una colección especial</p>
+    <h1 class="hero-title">Kinder,<br>el espejo a<br>tu propio mundo</h1>
+    <p class="hero-copy">Una colección conceptual de remeras infantiles que invita a cada chico
+      a atravesar el espejo y descubrir su propio país de las maravillas —
+      con la sorpresa de siempre esperando del otro lado.</p>
+    <div class="hero-actions">
+      <a href="#coleccion" class="btn btn-primary">Ver la colección</a>
+      <a href="#armamundo" class="btn btn-ghost">Armá tu mundo</a>
+    </div>
+  </div>
+
+  <div class="hero-art" aria-hidden="true">
+    <div class="mirror-frame">
+      <svg viewBox="0 0 320 420" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="160" cy="210" rx="150" ry="200" fill="#FBF7EE" stroke="#3E2E4A" stroke-width="3"/>
+        <ellipse cx="160" cy="210" rx="132" ry="182" fill="none" stroke="#DCD3EA" stroke-width="1.5"/>
+        <!-- silueta niña con vestido, referencia genérica de cuento -->
+        <path d="M160 130c9 0 16 8 16 18 0 7-4 13-9 16 14 4 24 16 26 33l6 48c1 8-5 15-13 15h-52c-8 0-14-7-13-15l6-48c2-17 12-29 26-33-5-3-9-9-9-16 0-10 7-18 16-18z" fill="#3E2E4A"/>
+        <path d="M124 245c-6 22-8 46-6 66h84c2-20 0-44-6-66" fill="none" stroke="#3E2E4A" stroke-width="2"/>
+        <path d="M118 250c-14 6-22 18-24 32M202 250c14 6 22 18 24 32" stroke="#3E2E4A" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+        <!-- vincha -->
+        <path d="M136 128c8-6 40-6 48 0" stroke="#C9E4F0" stroke-width="4" fill="none" stroke-linecap="round"/>
+        <!-- conejo blanco chico -->
+        <g transform="translate(214,268) scale(0.9)">
+          <ellipse cx="0" cy="10" rx="16" ry="12" fill="#FDFBF6" stroke="#3E2E4A" stroke-width="1.6"/>
+          <ellipse cx="-6" cy="-10" rx="4" ry="12" fill="#FDFBF6" stroke="#3E2E4A" stroke-width="1.4"/>
+          <ellipse cx="6" cy="-10" rx="4" ry="12" fill="#FDFBF6" stroke="#3E2E4A" stroke-width="1.4"/>
+          <circle cx="-5" cy="6" r="1.4" fill="#3E2E4A"/>
+          <circle cx="5" cy="6" r="1.4" fill="#3E2E4A"/>
+        </g>
+        <!-- llave flotando -->
+        <g transform="translate(70,120) rotate(-20)">
+          <circle cx="0" cy="0" r="7" fill="none" stroke="#F5E6A8" stroke-width="2.4"/>
+          <path d="M6 0h16M18 0v6M22 0v4" stroke="#F5E6A8" stroke-width="2.4" stroke-linecap="round"/>
+        </g>
+        <!-- mariposa -->
+        <g transform="translate(232,150)">
+          <path d="M0 0c-10-14-26-8-22 4 3 9 16 8 22-4z" fill="#F3D1D9"/>
+          <path d="M0 0c10-14 26-8 22 4-3 9-16 8-22-4z" fill="#C8E8D8"/>
+          <line x1="0" y1="-2" x2="0" y2="6" stroke="#3E2E4A" stroke-width="1.4"/>
+        </g>
+      </svg>
+    </div>
+    <p class="hero-art-caption">Atravesá el espejo</p>
+  </div>
+</section>
+
+<!-- ===================== DIVISOR ===================== -->
+<div class="section-divider" aria-hidden="true">
+  <svg viewBox="0 0 200 24" width="140" height="16"><path d="M2 12c20-14 40 14 60 0s40-14 60 0 40 14 60 0" fill="none" stroke="#DCD3EA" stroke-width="2"/></svg>
+</div>
+
+<!-- ===================== LA COLECCIÓN ===================== -->
+<section class="collection" id="coleccion">
+  <div class="section-heading">
+    <h2>La colección</h2>
+    <p>Seis personajes, seis maneras distintas de mirarse al espejo.
+      Ilustraciones delicadas sobre algodón suave, para chicos de 2 a 10 años.</p>
+  </div>
+
+  <div class="product-grid" id="productGrid">
+    <!-- Los productos se generan dinámicamente desde app.js, pero se listan como noscript-fallback -->
+  </div>
+</section>
+
+<!-- ===================== DIVISOR ===================== -->
+<div class="section-divider" aria-hidden="true">
+  <svg viewBox="0 0 200 24" width="140" height="16"><path d="M2 12c20-14 40 14 60 0s40-14 60 0 40 14 60 0" fill="none" stroke="#F3D1D9" stroke-width="2"/></svg>
+</div>
+
+<!-- ===================== ARMÁ TU MUNDO ===================== -->
+<section class="bundles" id="armamundo">
+  <div class="section-heading">
+    <h2>Armá tu mundo</h2>
+    <p>Paquetes que combinan una remera de la colección con una canasta de huevos Kinder Sorpresa,
+      pensados para regalar un mundito entero.</p>
+  </div>
+
+  <div class="bundle-grid" id="bundleGrid"></div>
+</section>
+
+<!-- ===================== CÓMO COMPRAR ===================== -->
+<section class="how-it-works" id="carrito-info">
+  <div class="section-heading">
+    <h2>Cómo comprar</h2>
+    <p>Un proceso simulado, pensado para que pruebes la experiencia completa.</p>
+  </div>
+  <div class="steps-row">
+    <div class="step-card">
+      <span class="step-mark">Elegí</span>
+      <p>Sumá remeras o paquetes al carrito, con el talle que necesites.</p>
+    </div>
+    <div class="step-card">
+      <span class="step-mark">Revisá</span>
+      <p>Ajustá cantidades y talles desde el carrito antes de confirmar.</p>
+    </div>
+    <div class="step-card">
+      <span class="step-mark">Confirmá</span>
+      <p>Finalizá la compra simulada y recibí un código de pedido.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="brand-lockup footer-lockup">
+      <span class="logo logo-mimo">Mimo<span class="logo-amp">&amp;</span>Co</span>
+      <span class="lockup-x">×</span>
+      <span class="logo logo-kinder">kinder</span>
+    </div>
+    <p class="footer-concept">"Kinder, el espejo a tu propio mundo"</p>
+    <p class="footer-note">Colección conceptual con fines de presentación. Compra simulada — sin pagos reales, envíos ni stock.</p>
+  </div>
+</footer>
+
+<!-- ===================== CARRITO (DRAWER) ===================== -->
+<div class="cart-overlay" id="cartOverlay"></div>
+<aside class="cart-drawer" id="cartDrawer" aria-label="Carrito de compras">
+  <div class="cart-header">
+    <h3>Tu mundo hasta ahora</h3>
+    <button class="cart-close" id="cartClose" aria-label="Cerrar carrito">&times;</button>
+  </div>
+
+  <div class="cart-items" id="cartItems">
+    <p class="cart-empty" id="cartEmptyMsg">Todavía no agregaste nada. El espejo espera.</p>
+  </div>
+
+  <div class="cart-summary">
+    <div class="cart-total-row">
+      <span>Total</span>
+      <span id="cartTotal">$0</span>
+    </div>
+    <button class="btn btn-primary btn-checkout" id="checkoutBtn">Finalizar compra</button>
+  </div>
+</aside>
+
+<!-- ===================== MODAL CONFIRMACIÓN ===================== -->
+<div class="modal-overlay" id="orderModalOverlay">
+  <div class="order-modal" role="dialog" aria-modal="true" aria-label="Pedido confirmado">
+    <div class="order-mirror">
+      <svg width="60" height="60" viewBox="0 0 60 60"><ellipse cx="30" cy="30" rx="26" ry="26" fill="#FBF7EE" stroke="#3E2E4A" stroke-width="2.4"/><ellipse cx="30" cy="30" rx="18" ry="18" fill="none" stroke="#F5E6A8" stroke-width="1.6"/></svg>
+    </div>
+    <h3>Cruzaste al otro lado</h3>
+    <p>Tu pedido quedó confirmado. Guardá este código como comprobante.</p>
+    <p class="order-code" id="orderCode">MK-000000</p>
+    <button class="btn btn-primary" id="closeOrderModal">Volver a la tienda</button>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
